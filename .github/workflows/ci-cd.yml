@@ -24,8 +24,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
-        run: npm run test
+      - name: Fix Jest permission issue
+        run: npx jest
 
       - name: Build application
         run: npm run build

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "npx jest",
+    "test": "npx jest --runInBand",
     "build": "mkdir -p dist && cp src/index.html dist/"
   },
   "dependencies": {

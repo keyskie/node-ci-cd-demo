@@ -1,0 +1,17 @@
+{
+  "name": "node-ci-cd-demo",
+  "version": "1.0.0",
+  "description": "A sample Node.js app for CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "mkdir -p dist && cp src/index.html dist/"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
